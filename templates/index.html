@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>STUDY MARK API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ <img src = "https://www.fujitsu.com/global/imagesgig5/Header-GIG5_education_success-stories_tcm100-3868522_tcm100-2750227-32.png" , width = 1300 , height  = 400> 
+</head>
+
+<body background = "https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg">
+ <div class="login">
+	<h1>Pridict Your Mark On The Basis Of Study Hour :- </h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	
+    <input type="text" name="Hours" placeholder="Enter Your Study Hour" required="required" />
+		
+
+        <button type="submit" class="btn btn-primary btn-block btn-large"> Predict Persent(%)</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
