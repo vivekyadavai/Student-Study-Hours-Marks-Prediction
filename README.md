@@ -1,9 +1,10 @@
 # Student-Study-Hours-Marks-Prediction
 <img src = "https://lh3.googleusercontent.com/NoG0gvTbFL1KhP3G68U8ItuUOqG0005725XbBob7pHXFu9QE8VzMOwYYoPAiOSFHUTLUztsu=w1080-h608-p-no-v0"  >
+
 # Prediction using Supervised ML
 
-1. Predict the percentage of an student based on the no. of study hours.
-2. This is a simple linear regression task as it involves just 2 variables.
+1. Predict the percentage of an student based on the no. of study hours
+2. This is a simple linear regression task as it involves just 2 variables
 3. You can use R, Python, SAS Enterprise Miner or any other tool
 4. Data can be found at http://bit.ly/w-data
 5. What will be predicted score if a student studies for 9.25 hrs/ day?
